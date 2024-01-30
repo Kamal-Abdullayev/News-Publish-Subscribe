@@ -1,0 +1,16 @@
+// POST -> http://localhost:8080/api/v1/news/subscribe
+
+{
+    "name": "NAME",
+    "surname": "SURNAME",
+    "email": "EMAIL@SMTH.com",
+    "newsTopicList": [
+        "LOCAL", "WORLD","ECONOMY","SPORT"
+    ]
+
+}
+
+// GET -> http://localhost:8080/api/v1/news/topics?email=EMAIL@SMTH.com
+
+Params:
+    email - EMAIL@SMTH.com
